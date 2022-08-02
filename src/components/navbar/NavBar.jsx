@@ -1,5 +1,5 @@
 import './navbar.css';
-import image from "../assets/images/me.jpg";
+import image from "../../assets/images/me.jpg";
 
 export default function NavBar() {
   return (

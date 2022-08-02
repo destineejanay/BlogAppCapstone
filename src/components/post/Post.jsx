@@ -1,5 +1,5 @@
 import "./post.css";
-import image from '../assets/images/mountains.jpg';
+import image from '../../assets/images/mountains.jpg';
 
 export default function Post() {
   return (

@@ -1,5 +1,5 @@
 import "./header.css";
-import ocean from '../assets/images/ocean.jpg';
+import ocean from '../../assets/images/ocean.jpg';
 
 export default function Header() {
   return (
