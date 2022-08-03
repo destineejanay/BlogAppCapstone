@@ -1,0 +1,53 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url("../../assets/images/ocean.jpg");
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+}
+
+.registerTitle {
+    font-size: 70px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+}
+.registerInput {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:  rgb(45, 44, 44);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: rgb(201, 179, 13);
+    border-radius: 10px;
+}

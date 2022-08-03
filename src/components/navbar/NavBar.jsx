@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
 import './navbar.css';
 import image from "../../assets/images/me.jpg";
 
 export default function NavBar() {
+  const user = true;
   return (
     <div className="nav">
         <div className='navLeft'>
@@ -12,7 +14,9 @@ export default function NavBar() {
         </div>
         <div className='navCenter'>
             <ul className="navList">
-                <li className="navListItem">HOME</li>
+                <li className="navListItem">
+                  <Link>HOME</Link>
+                </li>
                 <li className="navListItem">ABOUT</li>
                 <li className="navListItem">CONTACT</li>
                 <li className="navListItem">WRITE</li>

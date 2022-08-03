@@ -1,0 +1,54 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url("../../assets/images/mountains.jpg");
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+}
+
+.loginTitle {
+    font-size: 70px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+}
+.loginInput {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(45, 44, 44);
+    border: none;
+    color: rgb(201, 179, 13);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
